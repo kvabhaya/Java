@@ -7,6 +7,6 @@ class SampleWindow {
         myWindow = new JFrame();
         myWindow.setSize(300, 200);
         myWindow.setTitle("My Window");
-        myWindow.setVisible(true);
+        myWindow.setVisible(true); //false-Not Showing the Window
     }
 }

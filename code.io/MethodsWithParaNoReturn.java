@@ -1,4 +1,4 @@
-public class MethodsWithArgNoReturn {
+public class MethodsWithParaNoReturn {
     public static void main(String[] args) {
         add(10,15);
         System.out.println("c printed");

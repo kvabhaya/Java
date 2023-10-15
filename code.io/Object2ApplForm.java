@@ -16,16 +16,14 @@ public class Object2ApplForm {
 }
 class Main {
     public static void main(String[] args) {
-        ApplForm olong = new ApplForm();
+        Object2ApplForm olong = new Object2ApplForm();
         olong.setValues("Kokila Abhayasundara",1000);
         olong.display();
 
-        ApplForm user = new ApplForm();
+        Object2ApplForm user = new Object2ApplForm();
         user.name = "Maduja Abhayasundara";
         user.rollno = 1001;
         user.display();
-
-
     }
 
 }

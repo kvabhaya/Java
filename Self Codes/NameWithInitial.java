@@ -6,11 +6,11 @@ public class Main {
         String mname;
         String lname;
         System.out.print("Enter your First Name: ");
-        fname = scanner.next();
+        fname = scanner.nextLine();
         System.out.print("Enter your Middle Name: ");
-        mname = scanner.next();
+        mname = scanner.nextLine();
         System.out.print("Enter your Last Name: ");
-        lname = scanner.next();
+        lname = scanner.nextLine();
         System.out.println(fname.substring(0,1)+"."+mname.substring(0,1)+"."+lname);
 
     }

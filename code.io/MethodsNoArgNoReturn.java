@@ -1,4 +1,4 @@
-public class MethodsNoParaNoArg {
+public class MethodsNoArgNoReturn {
     public static void main(String args[]){
         add();
         System.out.println("c printed");

@@ -1,5 +1,6 @@
 public class Array {
     public static void main(String[] args) {
+        //int[] rollno = {1,2,3,4,5);
         int[] rollno = new int[50];
         // rollno[0] = 1;
         // rollno[5] = 6;

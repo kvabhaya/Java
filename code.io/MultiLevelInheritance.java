@@ -13,7 +13,7 @@ class GrandFather {
 }
 
 class Mother extends GrandFather {
-    char gender = 'F';
+    char gender = 'F'; //overriding
 }
 
 class Daughter extends Mother {

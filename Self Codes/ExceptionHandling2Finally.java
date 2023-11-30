@@ -8,6 +8,7 @@ public class ExceptionHandling2Finally {
         catch (Exception E) {
             System.out.println("b is 0");
         }
+        //Can have multiple catch blocks
         finally {
             System.out.println("Finally");
         }

@@ -6,6 +6,8 @@ public class ExceptionHandling {
             System.out.println(a/b);
         }
         catch (ArithmeticException E) {
+            //ArithmeticException is a class
+            // E is a object
             System.out.println("b is 0");
         }
         System.out.println("Hello World!");
